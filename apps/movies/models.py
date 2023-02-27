@@ -27,8 +27,7 @@ class Movie(models.Model):
     movie_duration = models.IntegerField(
         'duration', blank=False, null=False, default=45
     )
-    state = models.CharField(bjaayu
-    
+    state = models.CharField(
         'state', blank=False, null=False, max_length=50, default='USA'
     )
     release_type = models.CharField(
@@ -37,6 +36,7 @@ class Movie(models.Model):
     category_id = models.ForeignKey(
         Category, on_delete=models.CASCADE
     )
+
     rating = models.IntegerField(
         'rating', blank=False, null=False
     )
