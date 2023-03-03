@@ -10,7 +10,7 @@ movies in a single click.
 
 ## Live Demo
 This App uses a Replit free plan, so I am afraid that it takes time to load the pages.
-Check out [API LIVE DEMO](https://cinemaparadisobackend.coreytkaren.repl.co) here!!
+Check out [API LIVE DEMO](https://cinema-paradisebackend.alex-evans22.repl.co/) here!!
 ## Tech used
 * Backend : Django
 
